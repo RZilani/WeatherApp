@@ -1,0 +1,27 @@
+#Core FastAPI framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database ORM and PostgreSQL driver
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# HTTP client for OpenWeatherMap API calls
+httpx==0.25.2
+
+# Background task scheduling for data collection
+apscheduler==3.10.4
+
+# Data validation and serialization (built into FastAPI but explicit)
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Optional: Enhanced JSON handling for API responses
+orjson==3.9.10
+
+# Optional: Timezone handling for weather data
+pytz==2023.3
